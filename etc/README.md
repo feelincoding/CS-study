@@ -60,3 +60,21 @@
 - 단방향
 - 양방향
   - .
+# Design Pattern
+## MVC
+### 개념
+- 사용자가 Controller를 통해 요청을 하면 Controller는 Model을 통해 비즈니스 로직을 처리하고, 처리된 결과 데이터를 View를 통해 사용자에게 전달한다.
+- 비즈니스 로직은 주로 Model에 구현 되어있다.
+### 설명
+- Model: 데이터를 담당
+- View: 사용자에게 보여지는 화면
+- Controller: 사용자의 요청을 받아서 처리하는 부분
+## MVP
+- Model: 데이터를 담당
+- View: 사용자에게 보여지는 화면
+- Presenter: View와 Model을 연결해주는 역할
+## MVVM
+- Model: 데이터를 담당
+- View: 사용자에게 보여지는 화면
+- ViewModel: View와 Model을 연결해주는 역할
+
